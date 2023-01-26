@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js" defer></script>
+    <title>Calculadora IMC</title>
+  </head>
+  <body>
+    <main>
+      <p>
+        Altura em CM:<input
+          type="number"
+          id="altura"
+          placeholder="ex 170"
+          maxlength="4"
+        /><br /><span id="altura_erro"></span>
+      </p>
+
+      <p>
+        Peso em KG:
+        <input
+          type="number"
+          id="peso"
+          placeholder="ex 53,54"
+          maxlength="6"
+        /><br /><span id="peso_erro"></span>
+      </p>
+
+      <button id="btn">Calcular</button>
+      <p id="resposta"></p>
+    </main>
+  </body>
+</html>
